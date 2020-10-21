@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.RegisterFragment"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:errorEnabled="true"
+                app:counterEnabled="true"
+                app:counterMaxLength="25"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:counterTextColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                app:hintTextColor="@android:color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Email"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="25"
+                    android:background="@drawable/et_background_selector"
+                    android:textColor="@android:color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_id_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:errorEnabled="true"
+                app:counterEnabled="true"
+                app:counterMaxLength="25"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:counterTextColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                app:hintTextColor="@android:color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_id_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Id Number"
+                    android:inputType="number"
+                    android:maxLength="25"
+                    android:background="@drawable/et_background_selector"
+                    android:textColor="@android:color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_county"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:errorEnabled="true"
+                app:counterEnabled="true"
+                app:counterMaxLength="25"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:counterTextColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                app:hintTextColor="@android:color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_county"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter County"
+                    android:inputType="text"
+                    android:maxLength="25"
+                    android:background="@drawable/et_background_selector"
+                    android:textColor="@android:color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_constituency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:errorEnabled="true"
+                app:counterEnabled="true"
+                app:counterMaxLength="25"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Body1"
+                app:counterTextColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                app:hintTextColor="@android:color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_constituency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Constituency"
+                    android:inputType="text"
+                    android:maxLength="25"
+                    android:background="@drawable/et_background_selector"
+                    android:textColor="@android:color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="12"
+                app:counterTextColor="@android:color/white"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@android:color/white"
+                android:textColorHint="@android:color/white"
+                app:hintTextColor="@android:color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Password"
+                    android:inputType="textPassword"
+                    android:maxLength="12"
+                    android:background="@drawable/et_background_selector"
+                    android:textColor="@android:color/white"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/register"
+                android:textColor="@android:color/white"
+                android:theme="@style/MaterialTheme" />
+
+            <ProgressBar
+                android:id="@+id/pb_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/MaterialTheme"
+                android:visibility="gone"/>
+
+            <androidx.legacy.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/text_login"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/white"
+                android:theme="@style/MaterialTheme"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

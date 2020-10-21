@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imv_contestant"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/imv_contestant"
+            android:layout_toRightOf="@+id/imv_contestant"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/tv_contestant_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contestant Name"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_party_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Party Name"
+                android:layout_below="@id/tv_contestant_name"
+                style="@style/TextAppearance.AppCompat.Small"
+                android:textStyle="bold"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"/>
+
+            <TextView
+                android:id="@+id/tv_contestant_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contestant Id"
+                android:layout_below="@id/tv_party_name"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_vote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Vote"
+                android:textColor="@android:color/white"
+                android:theme="@style/MaterialTheme"
+                android:layout_below="@id/tv_contestant_id"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imv_party"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

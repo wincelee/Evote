@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "818767349232",
+    "firebase_url": "https://evote-80ae1.firebaseio.com",
+    "project_id": "evote-80ae1",
+    "storage_bucket": "evote-80ae1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818767349232:android:9389e7ec05f2840e9c4935",
+        "android_client_info": {
+          "package_name": "manu.apps.evote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818767349232-600ufk0mn8e6ccltplqrsujvf1f5i9gn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "manu.apps.evote",
+            "certificate_hash": "0b1aee0a29a4b2d91e8e12e93b3cfac8e450c564"
+          }
+        },
+        {
+          "client_id": "818767349232-5t4j0chju1ircva7j5t9mcqevgc3dnqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcHLq9jjH67UbVnK9CwDLqk0FaiW5MjKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818767349232-5t4j0chju1ircva7j5t9mcqevgc3dnqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

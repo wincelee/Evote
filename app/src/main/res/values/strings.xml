@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Evote</string>
+    <string name="text_register">Don\'t have an account? Register</string>
+    <string name="text_login">Already registered? Login here</string>
+    <string name="register">Register</string>
+    <string name="electoral_positions">Electoral Positions</string>
+    <string name="profile">Profile</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="proceed">Proceed</string>
+    <string name="electoral_position_image_view">Electoral Position Image View</string>
+    <string name="votes_fragment">Votes Fragment</string>
+    <string name="votes">Votes</string>
+</resources>

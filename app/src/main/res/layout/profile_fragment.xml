@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/imv_profile_banner"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_profile_banner"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/imv_profile_banner"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Address: "
+            style="@style/TextAppearance.AppCompat.Headline"/>
+
+        <TextView
+            android:id="@+id/tv_id_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Id Number: "
+            style="@style/TextAppearance.AppCompat.Headline"/>
+
+        <TextView
+            android:id="@+id/tv_county"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="County: "
+            style="@style/TextAppearance.AppCompat.Headline"/>
+
+        <TextView
+            android:id="@+id/tv_constituency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Constituency: "
+            style="@style/TextAppearance.AppCompat.Headline"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

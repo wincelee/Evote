@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/positions_fragment"
+        android:contentDescription="@string/electoral_positions"
+        android:icon="@drawable/ic_electoral_positions_white"
+        android:menuCategory="secondary"
+        android:title="@string/electoral_positions"/>
+
+    <item
+        android:id="@id/votes_fragment"
+        android:contentDescription="@string/votes_fragment"
+        android:icon="@drawable/ic_votes"
+        android:menuCategory="secondary"
+        android:title="@string/votes" />
+
+    <item
+        android:id="@id/profile_fragment"
+        android:contentDescription="@string/profile_fragment"
+        android:icon="@drawable/ic_profile_white"
+        android:menuCategory="secondary"
+        android:title="@string/profile" />
+
+</menu>
